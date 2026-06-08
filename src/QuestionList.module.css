@@ -1,0 +1,6 @@
+.questionList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-300);
+}

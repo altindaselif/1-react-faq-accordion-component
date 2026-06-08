@@ -1,0 +1,47 @@
+.mainContainer {
+  width: 100%;
+  max-width: 60rem;
+  background-color: var(--white);
+  border-radius: 1.6rem;
+  padding: var(--spacing-500);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-300);
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-300);
+}
+
+.headerIcon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.headerHeading {
+  color: var(--purple-950);
+  font: var(--tp-1);
+}
+
+@media (max-width: 24em) {
+  .mainContainer {
+    max-width: 32.7rem;
+    border-radius: 0.8rem;
+    padding: var(--spacing-300);
+  }
+
+  .headerContainer {
+    margin-bottom: 0;
+  }
+
+  .headerIcon {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .headerHeading {
+    font-size: 3.2rem;
+  }
+}

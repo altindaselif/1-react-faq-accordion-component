@@ -1,0 +1,58 @@
+:root {
+  /* Colors */
+  --white: #fff;
+  --black: #000;
+  --purple-950: #301534;
+  --purple-600: #8b6990;
+  --purple-100: #f8eeff;
+  --violet-600: #ad28eb;
+
+  /* Typography - Font Family */
+  --font-family: "Work Sans", sans-serif;
+
+  /* Text Presets */
+  /* Weight Size/Line-Height Family */
+  --tp-1: 700 5.6rem/6.6rem var(--font-family);
+  --tp-2: 600 1.8rem/2.1rem var(--font-family);
+  --tp-3: 400 1.6rem/2.4rem var(--font-family);
+
+  /* Spacing */
+  --spacing-500: 4rem;
+  --spacing-400: 3.2rem;
+  --spacing-300: 2.4rem;
+  --spacing-200: 1.6rem;
+  --spacing-100: 0.8rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--purple-100);
+  background-image: url("/images/background-pattern-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 24em) {
+  body {
+    padding: 4.8rem var(--spacing-300);
+    background-image: url("/images/background-pattern-mobile.svg");
+  }
+}
