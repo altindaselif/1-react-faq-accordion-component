@@ -34,7 +34,7 @@ function App() {
       <header className={styles.headerContainer}>
         <img
           className={styles.headerIcon}
-          src="/images/icon-star.svg"
+          src="./images/icon-star.svg"
           alt="Star Icon"
         />
         <h1 className={styles.headerHeading}>FAQs</h1>

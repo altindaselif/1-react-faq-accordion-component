@@ -8,8 +8,8 @@ The goal was to build a clean FAQ section where users can expand and collapse an
 
 ## 🔗 Links
 
-- **Live Site:** [View Live Demo](#)
-- **Code:** [View GitHub Repository](#)
+- **Live Site:** [View Live Demo](https://altindaselif.github.io/1-react-faq-accordion-component/)
+- **Code:** [View GitHub Repository](https://github.com/altindaselif/1-react-faq-accordion-component)
 
 ## 💡 Key Features
 

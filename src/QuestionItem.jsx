@@ -17,12 +17,12 @@ function QuestionItem({ message, isActive, onToggle }) {
           <div className={styles.questionButtonContainer}>
             <img
               className={styles.buttonPlusIcon}
-              src="/images/icon-plus.svg"
+              src="./images/icon-plus.svg"
               alt=""
             />
             <img
               className={styles.buttonMinusIcon}
-              src="/images/icon-minus.svg"
+              src="./images/icon-minus.svg"
               alt=""
             />
           </div>
